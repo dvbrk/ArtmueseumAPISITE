@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-shadow: 10px 10px 20px grey;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-shadow: 10px 10px 20px grey;
+    font-size: 15px;
+    text-align: center;
+    color: #5E5E5E;
+    font-family: sans-serif;
+}
+
+p {
+    text-shadow: 10px 10px 20px grey;
+    font-size: 15px;
+    text-align: center;
+    color: #5E5E5E;
+    font-family: sans-serif;
+}
+
+input {
+    box-shadow: 10px 10px 10px grey;
+    margin: auto;
+    display: block;
+    width: 15%;
+
+}
+
+#container {
+    border: 20px #5E5E5E solid;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.art {
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    #container {
+        width: 100%;
+    }
+    input {
+        width: 20%;
+    }
+    
+} 
