@@ -18,9 +18,7 @@ $("#colors").hide(); //hide the colors div we do not need it now
 $("#preloader").hide(); //hide the preloader
 
 
-//this function sets a random image as background
-var myPix = new
-Array("images/image1.jpg", "images/image2.jpg", "images/image3.jpg");
+
 
 function choosePic() {
     var randomNum = Math.floor((Math.random() * myPix.length));
