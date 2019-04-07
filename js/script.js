@@ -20,11 +20,7 @@ $("#preloader").hide(); //hide the preloader
 
 
 
-function choosePic() {
-    var randomNum = Math.floor((Math.random() * myPix.length));
-    document.getElementById("bg").style.backgroundImage =
-        "url(" + myPix[randomNum] + ")";
-}
+
 window.onload = choosePic;
 
 
